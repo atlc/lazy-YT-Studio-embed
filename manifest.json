@@ -1,0 +1,12 @@
+{
+    "name": "Lazy YT Embed",
+    "version": "1.0",
+    "description": "Lazily grab the embed code from the YT studio page",
+    "content_scripts": [
+        {
+          "matches": ["*://studio.youtube.com/video/*"],
+          "js": ["app.js"]
+        }
+      ],
+    "manifest_version": 2
+}
